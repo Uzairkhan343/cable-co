@@ -1,0 +1,109 @@
+.section-3-main{
+    padding: 0px 40px 0 40px !important;
+   background-color: #444e68;
+    overflow: hidden;
+}
+.section-3-main .sec-3{
+    background: #323b52;
+    width: 45%;
+}
+.charts-main {
+    padding: 50px 10px 0px 16px;
+  }
+  .chart-1 {
+    background: #444e68;
+    max-width: 415px;
+    position: relative;
+  
+    margin-top: 34px;
+  }
+  .chart-1:hover {
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 75%);
+  }
+  .chart-1 p {
+    color: #8d97b1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  .chart-2 {
+    background: #444e68;
+    max-width: 415px;
+    margin-left: 117px;
+    position: relative;
+    /* top: -41px; */
+    margin-top: 42px;
+  }
+  .chart-2:hover{
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 75%);
+  }
+  .chart-2 p {
+    color: #8d97b1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  .chart-3 {
+    background: #444e68;
+    max-width: 415px;
+    position: relative;
+  }
+  .chart-3:hover{
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 75%);
+  }
+  .chart-3 p {
+    color: #8d97b1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  .chart-4 {
+    background: #444e68;
+    max-width: 415px;
+    margin-left: 117px;
+    position: relative;
+    /* top: -41px; */
+    margin-top: 42px;
+  }
+  .chart-4:hover{
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 75%);
+  }
+  .chart-4 p {
+    color: #8d97b1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  .chart-5 {
+    background: #444e68;
+    max-width: 415px;
+    position: relative;
+    /* top: -30px; */
+    margin-top: 34px;
+  }
+  .chart-5:hover{
+    box-shadow: 0px 0px 14px 1px rgb(0 0 0 / 75%);
+  }
+  .chart-5 p {
+    color: #8d97b1;
+    font-size: 17px;
+    padding: 29px 88px 41px 56px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  .heading-last-section h1{
+    margin-left: 65px;
+    color: #444E68;
+    font-size: 62px;
+    font-family: 'Old Standard TT', serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-top: 30px;
+  }
+  
