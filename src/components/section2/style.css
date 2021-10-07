@@ -610,4 +610,20 @@ div#zingchart-react-3 {
   color: #8D97B1;
   margin: 0 0 10px;
 }
+.image-responisve-close-open{
+  display: none;
+}
+.icon-dots-responsive-sec{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.image-responsive-close-open{
+  display: none;
+}
+div#zingchart-react-5{
+  height: 237px !important;
+  width: 100% !important;
+  overflow: hidden;
+}
 

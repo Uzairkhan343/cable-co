@@ -10,6 +10,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import image22 from "../../Assets/images/upload.png";
+import image23 from "../../Assets/images/down-arrow.png";
 
 const Section2 = () => {
   AOS.init({
@@ -212,6 +214,12 @@ const Section2 = () => {
       setaddmore(0);
     } else setaddmore(value);
   };
+  const [open, setopen] = useState(1);
+  const openhandler = (value) => {
+    if (open === 1) {
+      setopen(0);
+    } else setopen(value);
+  };
 
   return (
     <div>
@@ -387,11 +395,34 @@ const Section2 = () => {
             {/* right side section */}
             <div className="right-side-section">
               {/* heading dots */}
-              <div className="dots-sec">
-                <div className="dots-1"></div>
-                <div className="dots-1"></div>
-                <div className="dots-1"></div>
+              <div className="icon-dots-responsive-sec">
+                <div className="dots-sec">
+                  <div className="dots-1"></div>
+                  <div className="dots-1"></div>
+                  <div className="dots-1"></div>
+                </div>
+                {/* img */}
+                <div className="image-responsive-close-open">
+                  {open === 1 ? (
+                    <div>
+                      <img src={image22} alt="" onClick={() => openhandler(0)}>
+                      </img>
+                    </div>
+                    
+                  ) : (
+                    
+                    <div>
+                      <img
+                        src={image23}
+                        alt=""
+                        onClick={() => openhandler(1)}
+                      ></img>
+                    </div>
+                  )}
+                  
+                </div>
               </div>
+              {/* img */}
               {/* heading */}
               <div className="heading-right">
                 <h3 className="Roboto_font">Professional Development Index</h3>
